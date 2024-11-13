@@ -13,5 +13,5 @@ st.code("x=2025")
 st.latex(r''' a+a r^1+a r^2+a r^3 ''')
 
 
-numero = st.slider('Selecione um número', min_value = 0, max_value = 1000)
+numero = st.slider('Selecione um número', min_value = 1980, max_value = 2024)
 st.text("Seu número é " + str(numero))
