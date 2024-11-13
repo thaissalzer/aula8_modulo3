@@ -11,3 +11,7 @@ st.caption("Esta é a a legenda")
 st.code("x=2025")
 #Renderiza expressões matemáticas usando sintaxe LaTeX, ideal para mostrar fórmulas complexas de forma legível.
 st.latex(r''' a+a r^1+a r^2+a r^3 ''')
+
+
+numero = st.slider('Selecione um número', min_value = 0, max_value = 100)
+st.text("Seu número é " + str(numero))
